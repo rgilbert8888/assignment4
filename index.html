@@ -3,11 +3,14 @@
  <head>
     
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <title>JS Practice</title>
     
   </head>
 <body>
   <h1>Assignment 6 - Javascript Practice</h1>
+  <button onclick="myFunction()"><i class="fa fa-pencil-square-o"></i>Populate</button>
+  <button onclick="reset()">Reset</button>
 <table>
   <tr>
     <td class="label">First Name</td>
@@ -24,9 +27,33 @@
     <td id="age"></td>
   </tr>
 
+  <tr>
+    <td class="label">In 20 Years</td>
+    <td id="future_age"></td>
+  </tr>
+
+  <tr>
+    <td class="label">Family</td>
+    <td id="family"></td>
+  </tr>
+
+  <tr>
+    <td class="label">Reverse Family</td>
+    <td id="reverse_family"></td>
+  </tr>
+
+   <tr>
+    <td class="label">Message</td>
+    <td id="message"></td>
+  </tr>
+   <tr>
+    <td class="label">Personalized Message</td>
+    <td id="message2"></td>
+  </tr>
+
+
 </table>
-<button onclick="myFunction()">CLICK</button>
-  <button onclick="reset()">Reset</button>
+
 
    <script type="text/javascript" src="main.js"></script>
 </body>
