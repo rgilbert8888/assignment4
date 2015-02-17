@@ -1,37 +1,43 @@
-
 body{
-  margin:0 auto;
-  text-align:center;
-  height:350px;
-  font-size: 18px ;
+    
+    margin: 0 auto;
+    width:80%;
+    text-align: center;
+}
+.container{
+    margin:0 auto;
+    width: 50%;
+    background-color: grey;
+    height: 280px;
+    margin-bottom: 20px;
+}
+
+#labels{
+    width:  50%;
+    width: 45%;
+}
+
+#results {
+    float:right;
+    background-color: grey;
+    width: 58%;
 }
 
 
-.container, div{
-  background-color:rgb(54, 161, 169);
-  width: 400px;
-  margin: 0 auto;
-  padding: 20px 20px 0 20px;
+#results p{
+    padding: 8px 2px 2px 2px;
+    margin:0;
+    background-color:white;
+    border: 10px solid grey;
+    text-align: left;
+    height: 1em;
 }
 
-span{
-  float:left;
-  width:130px;
-  text-align:right;
-  color: white;
 
+#labels p{
+    padding: 8px 2px 2px 2px;
+    margin: 0;
+    color: white;
+    border: 10px solid grey;
+    text-align: right;
 }
- 
-input{
-  width:190px;
-  margin-bottom:10px;
-}
-
-button{
-  margin-bottom: 20px;
-  width: 65px;
-  height: 30px;
-/*  background-color: pink;*/
-  font-weight: bold;
-}
-

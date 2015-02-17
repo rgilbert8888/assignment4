@@ -1,47 +1,52 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <title>JS Practice</title>
-    
-  </head>
-  <body>
-    <header>
-      <h1>Assignment 6 - Javascript Practice</h1>
-    </header>
-    <div class="container">
-      <span>First Name:</span>
-      <input type="text" id="first_name">
-      <!-- <br /> -->
-      
-      <span>Last Name:</span>
-      <input type="text" id="last_name">
-      <!--  <br /> -->
-      
-      <span>Age:</span>
-      <input type="text" id="age">
-      <!-- <br />  -->
-      
-      <span>Future Age:</span>
-      <input type="text" id="future_age">
-      <!--  <br />
-      -->
-      <span>Family Members:</span>
-      <input type="text" id="family">
-      <!--  <br />
-      -->
-      <span>Message:</span>
-      <input type="text" id="message">
-      <!--  <br />
-      -->
-    </div>
-    <div>
-      <button id="thing" onclick="onLoad()">CLICK ME!</button>
-    </div>
-  </div>
-  
-  <script type="text/javascript" src="main.js"></script>
-  
-</body>
+    <head>
+
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <title>JS Practice</title>
+
+    </head>
+    <body>
+        <header>
+            <h1>Assignment 6 - Javascript Practice</h1>
+        </header>
+        
+        <div>
+            <button id="thing" onClick="onClick()">CLICK ME!</button>
+        </div>
+        <div class="container">
+            
+            <div id="results">
+                <p id = "first_name" class="result"></p>
+               
+                <p id = "last_name" class="result"></p>
+            
+                <p id = "age" class="result"></p>
+            
+                <p id = "future_age" class="result"></p>
+                
+                <p id="family" class="result"></p>
+            
+                <p id="message" class="result"></p>
+            </div>
+        
+        
+            <div id="labels">
+                <p>First Name:</p>
+<!--                <br>-->
+                <p>Last Name:</p>
+<!--                <br>-->
+                <p>Age:</p>
+<!--                <br>-->
+                <p>Future Age:</p>
+<!--                <br>  -->
+                <p>Family Members:</p>
+<!--                <br>-->
+                <p>Family Members:</p>
+            </div>
+        
+
+        </div>
+
+    </body>
 </html>
