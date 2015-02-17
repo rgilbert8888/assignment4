@@ -1,47 +1,33 @@
 <!DOCTYPE html>
 <html>
-  <head>
+ <head>
     
     <link rel="stylesheet" type="text/css" href="styles.css">
     <title>JS Practice</title>
     
   </head>
-  <body>
-    <header>
-      <h1>Assignment 6 - Javascript Practice</h1>
-    </header>
-    <div class="container">
-      <span>First Name:</span>
-      <input type="text" id="first_name">
-      <!-- <br /> -->
-      
-      <span>Last Name:</span>
-      <input type="text" id="last_name">
-      <!--  <br /> -->
-      
-      <span>Age:</span>
-      <input type="text" id="age">
-      <!-- <br />  -->
-      
-      <span>Future Age:</span>
-      <input type="text" id="future_age">
-      <!--  <br />
-      -->
-      <span>Family Members:</span>
-      <input type="text" id="family">
-      <!--  <br />
-      -->
-      <span>Message:</span>
-      <input type="text" id="message">
-      <!--  <br />
-      -->
-    </div>
-    <div>
-      <button id="thing" onclick="onLoad()">CLICK ME!</button>
-    </div>
-  </div>
+<body>
+  <h1>Assignment 6 - Javascript Practice</h1>
+<table>
+  <tr>
+    <td class="label">First Name</td>
+    <td id="first_name"></td>
+  </tr>
   
-  <script type="text/javascript" src="main.js"></script>
+  <tr>
+    <td class="label">Last Name</td>
+    <td id="last_name"></td>
+  </tr>
   
+  <tr>
+    <td class="label">Age</td>
+    <td id="age"></td>
+  </tr>
+
+</table>
+<button onclick="myFunction()">CLICK</button>
+  <button onclick="reset()">Reset</button>
+
+   <script type="text/javascript" src="main.js"></script>
 </body>
 </html>

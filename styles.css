@@ -1,37 +1,24 @@
+table{
+    table-layout: fixed;
+    width: 200px;
+}
 
-body{
-  margin:0 auto;
-  text-align:center;
-  height:350px;
-  font-size: 18px ;
+td {
+/*    border: 1px solid black;*/
+    overflow: hidden;
+    width: 100px;
+    padding-bottom: 10px;
+}
+table{
+border-collapse: collapse;
 }
 
 
-.container, div{
-  background-color:rgb(54, 161, 169);
-  width: 400px;
-  margin: 0 auto;
-  padding: 20px 20px 0 20px;
+td:first-child{
+  font-weight:bold;
+  background-color: grey;
 }
 
-span{
-  float:left;
-  width:130px;
-  text-align:right;
-  color: white;
-
+td:last-child{
+  color:pink;
 }
- 
-input{
-  width:190px;
-  margin-bottom:10px;
-}
-
-button{
-  margin-bottom: 20px;
-  width: 65px;
-  height: 30px;
-/*  background-color: pink;*/
-  font-weight: bold;
-}
-
